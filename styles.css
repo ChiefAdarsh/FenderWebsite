@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.start-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.webcam-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.label-container {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+}
+

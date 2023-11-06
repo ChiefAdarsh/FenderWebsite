@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fender Finder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Include an external CSS file for styling -->
+</head>
+<body>
+    <div class="header">Fender Finder</div>
+    <div id="label-container" class="label-container">
+        <div id="label" style="color: red; font-size: 24px;">Label will display here</div>
+    </div>
+    <button class="start-button" onclick="init()">Start</button>
+    <div id="webcam-container" class="webcam-container"></div>
+    <div id="label-container" class="label-container"></div>
+    <video id="webcam" autoplay playsinline></video>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script> <!-- Separate the JavaScript into an external file -->
+</body>
+</html>
